@@ -1,0 +1,119 @@
+@media (max-width : 834px) {
+    .center {
+        padding-right: 16px;
+        padding-left: 16px;
+      
+    }
+    .header{
+        padding-top: 32px;
+        &__input {
+        display: none;
+        }
+    }
+    .menu {
+        display: none;
+
+        &__mob{
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+    .logo{
+        .logo__img{
+            width: 99px;
+        }
+    }
+
+    .titles {
+        font-family: Montserrat;
+        font-size: 48px;
+        line-height: 58.51px;
+        text-align: center;
+          
+    }
+    .top {
+        margin-bottom: 32px;
+    }
+    .top__text{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+
+    }
+    .header__gocatalog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+    }
+    .furniture_for{
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 29.26px;
+    text-align: left;
+
+    }
+    .for{
+        grid-template-columns: repeat(4 , 1fr);
+        &__item {
+            grid-column: 1 /-1;
+            height: 375px;
+            line-height: 34.13px;
+            font-size: 28px;
+            gap: 16px;
+
+
+        }
+        &__item_big{
+            height: 244px;
+        }
+    }
+
+    .product-content {
+        max-width: 393px;
+        row-gap: 32px;
+    }
+    .katalog__tovarov, .special{
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 29.26px;
+    text-align: left;
+   }
+
+   .position__footer_gocatalog{
+    padding-bottom: 32px;
+   }
+
+   .footer{
+    padding-bottom: 32px;
+    
+    &__content{
+        justify-content: center;
+        gap: 69px ;
+    }
+    &__info{
+        gap: 100px;
+    }
+   }
+   .link_input {
+    margin-top: 0;
+   }
+   .position__modal{
+    width: 286px;
+    left: calc((100% - 286px) / 2);
+    top: 580px;
+   }
+   .modal__footer{
+    padding-left: 0;
+    margin-top: 36px;
+   }
+   .gap__right_box{
+    margin-top: 32px;
+   }
+   .cart__img{
+    display: none;
+   }
+}

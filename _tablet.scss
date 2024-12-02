@@ -1,0 +1,29 @@
+@media (max-width: 1250px) {
+
+    .center{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .for{
+        &__item{
+            height: 268px;
+        }
+    }
+    
+    .product-content {
+        column-gap: 29px;
+        row-gap: 39px;
+        max-width: 785px;
+        margin: 0 auto;
+    }
+    .footer__logo{
+        display: none;
+    }
+    .modal__footer{
+        padding-left: 255px;
+    }
+    .position__modal{
+        left: calc(100% - 541px - 24px);
+       }
+}
